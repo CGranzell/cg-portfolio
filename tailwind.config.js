@@ -11,7 +11,8 @@ module.exports = {
         "deep-blue-tweaked": "#010026",
         yellow: "#FDCC49",
         "light-green": "#DAFEE1",
-        "dark-green" : "#2D9227"
+        "dark-green" : "#2D9227",
+        
       },
       fontFamily: {
         poppins: ["Poppins", "serif"],
