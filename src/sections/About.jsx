@@ -10,7 +10,7 @@ const About = ({ setSelectedPage }) => {
       <div className=" h-3/4  w-3/4 ">
         {/* ABOUT ME */}
         <div className=" h:auto md:h-2/5  break-words pb-10">
-          <h2 className="text-xl md:text-3xl py-4">About me</h2>
+          <h2 className="text-4xl py-4">About me</h2>
           <p className="text-sm md:text-xl">
             Christoffer is a result-driven Software Developer with a passion for
             Frontend Development. <br />

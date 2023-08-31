@@ -5,7 +5,7 @@ const ProjectButton = ({ onClick, buttonText }) => {
   return (
     <motion.button
       onClick={onClick}
-      className="relative group p-1 text-3xl underline decoration-sky-600 md:decoration-blue-400"
+      className="relative group p-1 text-xl ss:text-3xl underline decoration-sky-600 md:decoration-blue-400"
       whileHover={{ scale: 1.1 }}
     >
       {buttonText}

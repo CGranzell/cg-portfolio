@@ -21,7 +21,7 @@ const Projects = ({ setSelectedPage }) => {
       className="min-h-screen font-poppins flex  justify-center "
     >
       <div className=" h-3/4  w-3/4">
-        <h2 className="text-6xl  mt-32">Projects</h2>
+        <h2 className=" text-4xl  mt-32">Projects</h2>
         <div className="flex flex-col md:flex-row mt-20">
           <div className="  md:w-6/12 flex flex-col items-start  ">
             {/* Ta bort knappen för "Welcome" */}

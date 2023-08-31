@@ -5,22 +5,22 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
 
 const Landing = ({ setSelectedPage }) => {
-  // const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 h-screen py-10 " 
+      className="flex flex-col md:flex-row items-center justify-center h-screen" 
     >
       {/* IMAGE SECTION */}
-      <div className="basis-2/5  mt-16 md:mt-32 flex justify-center md:order-2   ">
-        <img alt="profile" className="rounded-full  h-60  ss:h-80 lg:h-96" src={profileImg} />
+      <div className="md:basis-2/5  mt-16 md:mt-32 flex justify-center md:order-2  ">
+        <img alt="profile" className="rounded-full h-60 ss:h-[30rem]  lg:h-96 " src={profileImg} />
       </div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-3/5 mt-12 md:mt-32 ">
+      <div className="z-30 md:basis-3/5 mt-12 ss:mt-32">
         {/* HEADINGS */}
         <motion.div
-          className="flex flex-col items-center"
+          className="flex flex-col items-center "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -30,17 +30,17 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div>
-            <div className=" flex text-2xl md:text-6xl lg:text-[5.3rem] font-poppins">
+          {/* <div> */}
+            <div className="text-2xl ss:text-5xl lg:text-[4.6rem] font-poppins">
               <p>
                 Christoffer {''} <span className="text-yellow ">Granzell</span>
               </p>{' '}
             </div>
 
-            <div className="text-2xl  md:text-5xl  font-opensans py-6">
+            <div className="text-xl  md:text-5xl  font-opensans py-6">
               <p>Software developer</p>
             </div>
-          </div>
+          {/* </div> */}
 
         </motion.div>
 
