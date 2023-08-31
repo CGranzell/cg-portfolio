@@ -18,38 +18,17 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="font-poppins  min-h-screen flex-row items-center justify-center pt-40">
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, x: 50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-        className="flex justify-center  w-full  md:mt-32"
-      >
-        
-          <p className=" text-3xl md:text-6xl text-yellow">
-            CONTACT ME
-          </p>
-     
-      </motion.div>
+    <section
+      id="contact"
+      className="font-poppins  min-h-screen flex-row items-center justify-center pt-40"
+    >
+      <div className="flex justify-center  w-full  md:mt-32">
+        <p className=" text-3xl md:text-6xl text-yellow">CONTACT ME</p>
+      </div>
 
       {/* FORM */}
       <div className="flex justify-center   md:mt-32">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-          className="basis-1/2 mt-10 md:mt-0"
-        >
+        <div className="basis-1/2 mt-10 md:mt-0">
           <form
             target="_blank"
             onSubmit={onSubmit}
@@ -115,7 +94,7 @@ const Contact = () => {
               SEND ME A MESSAGE
             </button>
           </form>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
