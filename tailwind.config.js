@@ -12,7 +12,7 @@ module.exports = {
         yellow: "#FDCC49",
         "light-green": "#DAFEE1",
         "dark-green" : "#2D9227",
-        
+        "underline-decoration": "bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%" 
       },
       fontFamily: {
         poppins: ["Poppins", "serif"],

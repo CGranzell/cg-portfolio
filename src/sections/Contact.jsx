@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Contact = ({ setSelectedPage }) => {
   return (
     <section id='contact'></section>
   )

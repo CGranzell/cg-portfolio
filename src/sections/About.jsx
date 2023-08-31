@@ -1,7 +1,7 @@
 import React from 'react';
 import ExperienceItem from '../components/ExperienceItem';
 
-const About = () => {
+const About = ({ setSelectedPage }) => {
   return (
     <section
       id="about"

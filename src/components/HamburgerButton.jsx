@@ -1,9 +1,4 @@
-import { useState } from 'react';
-
 const HamburgerButton = ({ isOpen, setIsOpen }) => {
- 
-
-  
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-white transition ease transform duration-300`;
   return (
     <button
