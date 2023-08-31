@@ -7,15 +7,15 @@ const Abacus = () => {
     <h2 className="text-2xl pb-4">
       I've created a project called "Abacus."
     </h2>
-    <p>
+    <p className='border-y-2 py-6'>
     This project was commissioned by three schools offering advanced mathematics classes to gifted students. They required a platform to post events for their students, coupled with a secure login system to ensure only authorized personnel could create these events. To address these needs, I constructed the platform utilizing Next.js for the frontend, and Firebase for the backend, while also crafting the CSS from scratch.
     </p>
-    <div className="flex justify-around">
+    <div className="flex justify-around pt-6">
       <motion.a
         href="https://abacus-omega.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
-        className="relative group p-1 text-xl underline decoration-sky-600 md:decoration-blue-400"
+        className="relative group p-1 text-xl underline decoration-sky-600 md:decoration-blue-400 "
         whileHover={{ scale: 1.1 }}
       >
         View Site

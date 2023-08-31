@@ -12,8 +12,8 @@ const Landing = ({ setSelectedPage }) => {
       className="flex flex-col md:flex-row items-center justify-center h-screen" 
     >
       {/* IMAGE SECTION */}
-      <div className="md:basis-2/5  mt-16 md:mt-32 flex justify-center md:order-2  ">
-        <img alt="profile" className="rounded-full h-60 ss:h-[30rem]  lg:h-96 " src={profileImg} />
+      <div className="md:basis-2/5  mt-16 ss:mt-40 md:mt-32 flex justify-center md:order-2  ">
+        <img alt="profile" className="rounded-full h-60 ss:h-[20rem]  lg:h-96 " src={profileImg} />
       </div>
 
       {/* MAIN TEXT */}

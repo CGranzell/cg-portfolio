@@ -7,14 +7,14 @@ const Kopparstaden = () => {
       <h2 className="text-2xl pb-4">
         I've created a project called "Kopparstaden."
       </h2>
-      <p>
+      <p className='border-y-2 py-6'>
         The project is a landing page that I've developed as a clone of an
         existing website, a real estate company's site. This project showcases
         my ability to recreate the design and functionality of an existing
         website while ensuring responsiveness for different devices using a
         combination of HTML, CSS, Javascript, and Bootstrap 4.
       </p>
-      <div className="flex justify-around">
+      <div className="flex justify-around pt-6">
         <motion.a
           href="https://kopparstaden-klon.netlify.app/"
           target="_blank"

@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import About from './sections/About';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
+import Footer from './components/Footer';
+
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -57,6 +59,7 @@ function App() {
         >
           <Contact setSelectedPage={setSelectedPage} />
         </motion.div>
+        <Footer />
     </div>
   );
 }

@@ -8,10 +8,10 @@ const Webshop = ({ isSelected }) => {
       
 I've developed a project called "Webshop."
     </h2>
-    <p>
+    <p className='border-y-2 py-6'>
     This project was my thesis assignment, serving as a culmination of the knowledge I gathered during my educational journey. I chose to build it using React and made use of technologies like createContext to manage the global shopping cart state. Alongside, I crafted the CSS from scratch to ensure a unique visual identity.
     </p>
-    <div className="flex justify-around">
+    <div className="flex justify-around pt-6">
       <motion.a
         href="https://webshop-e.netlify.app/"
         target="_blank"
